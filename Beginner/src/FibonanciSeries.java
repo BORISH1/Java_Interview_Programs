@@ -3,7 +3,7 @@ public class FibonanciSeries {
         int n = new java.util.Scanner(System.in).nextInt();
         long a = 0, b = 1;
         for (int i = 0; i < n; i++) {
-            System.out.print(a + (i<n-1?" ":""));
+            System.out.println(a + (i<n-1?" ":""));
             long c = a+b; a=b ; b=c;
         }
     }
